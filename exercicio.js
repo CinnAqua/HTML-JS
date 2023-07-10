@@ -8,7 +8,7 @@ form.addEventListener('submit', function(e) {
     const resultado1 = document.querySelector('.resultado1');
     const resultado2 = document.querySelector('.resultado2');
 
-    if (numerob.value >> numeroa.value) {
+    if (numerob.value > numeroa.value) {
         const resultadoCerto = `Válido!`;
         resultado1.innerHTML = resultadoCerto;
         resultado1.style.display = 'flex';
